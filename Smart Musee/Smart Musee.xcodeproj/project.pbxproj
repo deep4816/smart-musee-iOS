@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C16EF021E97560300B132A8 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C16EF011E97560300B132A8 /* ProfileViewController.swift */; };
+		3C1D7A041E9806520058BD86 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1D7A031E9806520058BD86 /* AVFoundation.framework */; };
+		3C21C39A1E8A864500DD86D6 /* SQLFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C21C3991E8A864500DD86D6 /* SQLFeedback.swift */; };
+		3C5847E31E7B0B870035FC63 /* RegisterNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5847E21E7B0B870035FC63 /* RegisterNewViewController.swift */; };
+		3C5847E51E7B11540035FC63 /* RegisterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5847E41E7B11540035FC63 /* RegisterModel.swift */; };
+		3C5847E81E7B11940035FC63 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5847E71E7B11940035FC63 /* libsqlite3.tbd */; };
+		3C5EA3901E92BB770011FAD5 /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5EA38F1E92BB770011FAD5 /* Feedback.swift */; };
+		3C5EA3921E92BC4D0011FAD5 /* DBManagerFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5EA3911E92BC4D0011FAD5 /* DBManagerFeed.swift */; };
+		3CB8EA891E97D3B700D4AE13 /* UpdateUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB8EA881E97D3B700D4AE13 /* UpdateUser.swift */; };
+		3CC09D901E56A9CB002998E2 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DDB0E51DA2BDAA00EBD916 /* SignInViewController.swift */; };
+		3CC09D911E56AA4D002998E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91DBD4EF1DA13758008115FD /* Main.storyboard */; };
+		3CC7EFAD1E711F820093537B /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CC7EFAC1E711F820093537B /* SWRevealViewController.m */; };
+		3CC7EFB21E711FAA0093537B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC7EFAE1E711FAA0093537B /* ViewController.swift */; };
+		3CC7EFB31E711FAA0093537B /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC7EFAF1E711FAA0093537B /* FeedbackViewController.swift */; };
+		3CC7EFB41E711FAA0093537B /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC7EFB01E711FAA0093537B /* MenuCell.swift */; };
+		3CC7EFB51E711FAA0093537B /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC7EFB11E711FAA0093537B /* menuViewController.swift */; };
+		3CC7EFB71E712A080093537B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC7EFB61E712A080093537B /* SettingsViewController.swift */; };
+		3CF190FF1E71810D00EDB72F /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF190FE1E71810D00EDB72F /* AboutUsViewController.swift */; };
+		3CF390B11EA721EE0019BBFE /* Smart_Musee_DB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 3CF390B01EA721EE0019BBFE /* Smart_Musee_DB.sqlite */; };
+		91DBD4EC1DA13758008115FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DBD4EB1DA13758008115FD /* AppDelegate.swift */; };
+		91DBD4F11DA13758008115FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91DBD4EF1DA13758008115FD /* Main.storyboard */; };
+		91DBD4F31DA13758008115FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91DBD4F21DA13758008115FD /* Images.xcassets */; };
+		91DBD4F61DA13758008115FD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91DBD4F41DA13758008115FD /* LaunchScreen.xib */; };
+		91DBD5021DA13758008115FD /* Smart MuseeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DBD5011DA13758008115FD /* Smart MuseeTests.swift */; };
+		91DDB0E61DA2BDAA00EBD916 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DDB0E51DA2BDAA00EBD916 /* SignInViewController.swift */; };
+		91F4A09F1DA17322007DC67D /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F4A09E1DA17322007DC67D /* registerViewController.swift */; };
+		BDB70E4E1E92236B003365D8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB70E4D1E92236B003365D8 /* User.swift */; };
+		BDB70E501E922381003365D8 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB70E4F1E922381003365D8 /* DBManager.swift */; };
+		BDB70E591E9223BE003365D8 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB70E531E9223BE003365D8 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BDB70E5A1E9223BE003365D8 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB70E551E9223BE003365D8 /* FMDatabaseAdditions.m */; };
+		BDB70E5B1E9223BE003365D8 /* fmdb.txt in Resources */ = {isa = PBXBuildFile; fileRef = BDB70E561E9223BE003365D8 /* fmdb.txt */; };
+		BDB70E5C1E9223BE003365D8 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB70E581E9223BE003365D8 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91DBD4FC1DA13758008115FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91DBD4DE1DA13758008115FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91DBD4E51DA13758008115FD;
+			remoteInfo = "League Aegis";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C16EF011E97560300B132A8 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ../ProfileViewController.swift; sourceTree = "<group>"; };
+		3C1D7A031E9806520058BD86 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3C21C3991E8A864500DD86D6 /* SQLFeedback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLFeedback.swift; sourceTree = "<group>"; };
+		3C5847E21E7B0B870035FC63 /* RegisterNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterNewViewController.swift; sourceTree = "<group>"; };
+		3C5847E41E7B11540035FC63 /* RegisterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterModel.swift; sourceTree = "<group>"; };
+		3C5847E71E7B11940035FC63 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3C5EA38F1E92BB770011FAD5 /* Feedback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
+		3C5EA3911E92BC4D0011FAD5 /* DBManagerFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManagerFeed.swift; sourceTree = "<group>"; };
+		3CB8EA881E97D3B700D4AE13 /* UpdateUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateUser.swift; sourceTree = "<group>"; };
+		3CC7EFAA1E711F810093537B /* Smart Musee-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smart Musee-Bridging-Header.h"; sourceTree = "<group>"; };
+		3CC7EFAB1E711F820093537B /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		3CC7EFAC1E711F820093537B /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		3CC7EFAE1E711FAA0093537B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CC7EFAF1E711FAA0093537B /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		3CC7EFB01E711FAA0093537B /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		3CC7EFB11E711FAA0093537B /* menuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		3CC7EFB61E712A080093537B /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3CE5E7BF1E9B5884005809B1 /* gu-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "gu-IN"; path = "gu-IN.lproj/Main.strings"; sourceTree = "<group>"; };
+		3CE5E7C01E9B5885005809B1 /* gu-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "gu-IN"; path = "gu-IN.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		3CE5E7C11E9B5894005809B1 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		3CE5E7C21E9B5894005809B1 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		3CE5E7C31E9B58B1005809B1 /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/Main.strings"; sourceTree = "<group>"; };
+		3CE5E7C41E9B58B1005809B1 /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		3CF190FE1E71810D00EDB72F /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		3CF390B01EA721EE0019BBFE /* Smart_Musee_DB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Smart_Musee_DB.sqlite; sourceTree = "<group>"; };
+		91DBD4E61DA13758008115FD /* Smart Musee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Musee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91DBD4EA1DA13758008115FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91DBD4EB1DA13758008115FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91DBD4F01DA13758008115FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91DBD4F21DA13758008115FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		91DBD4F51DA13758008115FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		91DBD4FB1DA13758008115FD /* Smart MuseeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart MuseeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91DBD5001DA13758008115FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91DBD5011DA13758008115FD /* Smart MuseeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Smart MuseeTests.swift"; sourceTree = "<group>"; };
+		91DDB0E51DA2BDAA00EBD916 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = ../SignInViewController.swift; sourceTree = "<group>"; };
+		91F4A09E1DA17322007DC67D /* registerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
+		BDB70E4D1E92236B003365D8 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BDB70E4F1E922381003365D8 /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		BDB70E521E9223BE003365D8 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		BDB70E531E9223BE003365D8 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		BDB70E541E9223BE003365D8 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		BDB70E551E9223BE003365D8 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		BDB70E561E9223BE003365D8 /* fmdb.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fmdb.txt; sourceTree = "<group>"; };
+		BDB70E571E9223BE003365D8 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		BDB70E581E9223BE003365D8 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91DBD4E31DA13758008115FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1D7A041E9806520058BD86 /* AVFoundation.framework in Frameworks */,
+				3C5847E81E7B11940035FC63 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DBD4F81DA13758008115FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C16EEFE1E9744DC00B132A8 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3C5847E21E7B0B870035FC63 /* RegisterNewViewController.swift */,
+				91DDB0E51DA2BDAA00EBD916 /* SignInViewController.swift */,
+				3CC7EFAE1E711FAA0093537B /* ViewController.swift */,
+				3C16EF011E97560300B132A8 /* ProfileViewController.swift */,
+				3CC7EFB61E712A080093537B /* SettingsViewController.swift */,
+				3CC7EFAF1E711FAA0093537B /* FeedbackViewController.swift */,
+				3CF190FE1E71810D00EDB72F /* AboutUsViewController.swift */,
+				3CC7EFB11E711FAA0093537B /* menuViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		3C16EEFF1E97453700B132A8 /* database files */ = {
+			isa = PBXGroup;
+			children = (
+				3CF390B01EA721EE0019BBFE /* Smart_Musee_DB.sqlite */,
+				3C5EA38F1E92BB770011FAD5 /* Feedback.swift */,
+				BDB70E4D1E92236B003365D8 /* User.swift */,
+				3CB8EA881E97D3B700D4AE13 /* UpdateUser.swift */,
+				BDB70E4F1E922381003365D8 /* DBManager.swift */,
+				3C5EA3911E92BC4D0011FAD5 /* DBManagerFeed.swift */,
+			);
+			name = "database files";
+			sourceTree = "<group>";
+		};
+		3C16EF001E9745D600B132A8 /* extra */ = {
+			isa = PBXGroup;
+			children = (
+				91F4A09E1DA17322007DC67D /* registerViewController.swift */,
+				3C5847E41E7B11540035FC63 /* RegisterModel.swift */,
+				3C21C3991E8A864500DD86D6 /* SQLFeedback.swift */,
+			);
+			name = extra;
+			path = "League Aegis";
+			sourceTree = "<group>";
+		};
+		3C5847E61E7B11930035FC63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C1D7A031E9806520058BD86 /* AVFoundation.framework */,
+				3C5847E71E7B11940035FC63 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91DBD4DD1DA13758008115FD = {
+			isa = PBXGroup;
+			children = (
+				91DBD4E81DA13758008115FD /* Smart Musee */,
+				3C16EF001E9745D600B132A8 /* extra */,
+				91DBD4FE1DA13758008115FD /* Smart MuseeTests */,
+				91DBD4E71DA13758008115FD /* Products */,
+				3C5847E61E7B11930035FC63 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		91DBD4E71DA13758008115FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91DBD4E61DA13758008115FD /* Smart Musee.app */,
+				91DBD4FB1DA13758008115FD /* Smart MuseeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91DBD4E81DA13758008115FD /* Smart Musee */ = {
+			isa = PBXGroup;
+			children = (
+				91DBD4EB1DA13758008115FD /* AppDelegate.swift */,
+				91DBD4EF1DA13758008115FD /* Main.storyboard */,
+				3C16EEFE1E9744DC00B132A8 /* View Controllers */,
+				3C16EEFF1E97453700B132A8 /* database files */,
+				BDB70E511E92238B003365D8 /* FMDBSupport */,
+				91DBD4F21DA13758008115FD /* Images.xcassets */,
+				91DBD4F41DA13758008115FD /* LaunchScreen.xib */,
+				91DBD4E91DA13758008115FD /* Supporting Files */,
+				3CC7EFAA1E711F810093537B /* Smart Musee-Bridging-Header.h */,
+			);
+			name = "Smart Musee";
+			path = "League Aegis";
+			sourceTree = "<group>";
+		};
+		91DBD4E91DA13758008115FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CC7EFB01E711FAA0093537B /* MenuCell.swift */,
+				3CC7EFAB1E711F820093537B /* SWRevealViewController.h */,
+				3CC7EFAC1E711F820093537B /* SWRevealViewController.m */,
+				91DBD4EA1DA13758008115FD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91DBD4FE1DA13758008115FD /* Smart MuseeTests */ = {
+			isa = PBXGroup;
+			children = (
+				91DBD5011DA13758008115FD /* Smart MuseeTests.swift */,
+				91DBD4FF1DA13758008115FD /* Supporting Files */,
+			);
+			name = "Smart MuseeTests";
+			path = "League AegisTests";
+			sourceTree = "<group>";
+		};
+		91DBD4FF1DA13758008115FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91DBD5001DA13758008115FD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDB70E511E92238B003365D8 /* FMDBSupport */ = {
+			isa = PBXGroup;
+			children = (
+				BDB70E521E9223BE003365D8 /* FMDatabase.h */,
+				BDB70E531E9223BE003365D8 /* FMDatabase.m */,
+				BDB70E541E9223BE003365D8 /* FMDatabaseAdditions.h */,
+				BDB70E551E9223BE003365D8 /* FMDatabaseAdditions.m */,
+				BDB70E561E9223BE003365D8 /* fmdb.txt */,
+				BDB70E571E9223BE003365D8 /* FMResultSet.h */,
+				BDB70E581E9223BE003365D8 /* FMResultSet.m */,
+			);
+			name = FMDBSupport;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91DBD4E51DA13758008115FD /* Smart Musee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91DBD5051DA13758008115FD /* Build configuration list for PBXNativeTarget "Smart Musee" */;
+			buildPhases = (
+				91DBD4E21DA13758008115FD /* Sources */,
+				91DBD4E31DA13758008115FD /* Frameworks */,
+				91DBD4E41DA13758008115FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Musee";
+			productName = "League Aegis";
+			productReference = 91DBD4E61DA13758008115FD /* Smart Musee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91DBD4FA1DA13758008115FD /* Smart MuseeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91DBD5081DA13758008115FD /* Build configuration list for PBXNativeTarget "Smart MuseeTests" */;
+			buildPhases = (
+				91DBD4F71DA13758008115FD /* Sources */,
+				91DBD4F81DA13758008115FD /* Frameworks */,
+				91DBD4F91DA13758008115FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91DBD4FD1DA13758008115FD /* PBXTargetDependency */,
+			);
+			name = "Smart MuseeTests";
+			productName = "League AegisTests";
+			productReference = 91DBD4FB1DA13758008115FD /* Smart MuseeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91DBD4DE1DA13758008115FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "";
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = deep;
+				TargetAttributes = {
+					91DBD4E51DA13758008115FD = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 83AG82WS23;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					91DBD4FA1DA13758008115FD = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 83AG82WS23;
+						LastSwiftMigration = 0800;
+						TestTargetID = 91DBD4E51DA13758008115FD;
+					};
+				};
+			};
+			buildConfigurationList = 91DBD4E11DA13758008115FD /* Build configuration list for PBXProject "Smart Musee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91DBD4DD1DA13758008115FD;
+			productRefGroup = 91DBD4E71DA13758008115FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91DBD4E51DA13758008115FD /* Smart Musee */,
+				91DBD4FA1DA13758008115FD /* Smart MuseeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91DBD4E41DA13758008115FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DBD4F11DA13758008115FD /* Main.storyboard in Resources */,
+				91DBD4F61DA13758008115FD /* LaunchScreen.xib in Resources */,
+				91DBD4F31DA13758008115FD /* Images.xcassets in Resources */,
+				BDB70E5B1E9223BE003365D8 /* fmdb.txt in Resources */,
+				3CF390B11EA721EE0019BBFE /* Smart_Musee_DB.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DBD4F91DA13758008115FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC09D911E56AA4D002998E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91DBD4E21DA13758008115FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C21C39A1E8A864500DD86D6 /* SQLFeedback.swift in Sources */,
+				3C5EA3901E92BB770011FAD5 /* Feedback.swift in Sources */,
+				91F4A09F1DA17322007DC67D /* registerViewController.swift in Sources */,
+				91DBD4EC1DA13758008115FD /* AppDelegate.swift in Sources */,
+				BDB70E591E9223BE003365D8 /* FMDatabase.m in Sources */,
+				BDB70E5C1E9223BE003365D8 /* FMResultSet.m in Sources */,
+				BDB70E5A1E9223BE003365D8 /* FMDatabaseAdditions.m in Sources */,
+				3CC7EFB71E712A080093537B /* SettingsViewController.swift in Sources */,
+				3C5847E51E7B11540035FC63 /* RegisterModel.swift in Sources */,
+				3CC7EFB41E711FAA0093537B /* MenuCell.swift in Sources */,
+				3C5847E31E7B0B870035FC63 /* RegisterNewViewController.swift in Sources */,
+				BDB70E4E1E92236B003365D8 /* User.swift in Sources */,
+				3CF190FF1E71810D00EDB72F /* AboutUsViewController.swift in Sources */,
+				3CB8EA891E97D3B700D4AE13 /* UpdateUser.swift in Sources */,
+				3CC7EFB31E711FAA0093537B /* FeedbackViewController.swift in Sources */,
+				BDB70E501E922381003365D8 /* DBManager.swift in Sources */,
+				91DDB0E61DA2BDAA00EBD916 /* SignInViewController.swift in Sources */,
+				3CC7EFB21E711FAA0093537B /* ViewController.swift in Sources */,
+				3CC7EFAD1E711F820093537B /* SWRevealViewController.m in Sources */,
+				3C16EF021E97560300B132A8 /* ProfileViewController.swift in Sources */,
+				3C5EA3921E92BC4D0011FAD5 /* DBManagerFeed.swift in Sources */,
+				3CC7EFB51E711FAA0093537B /* menuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DBD4F71DA13758008115FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC09D901E56A9CB002998E2 /* SignInViewController.swift in Sources */,
+				91DBD5021DA13758008115FD /* Smart MuseeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91DBD4FD1DA13758008115FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91DBD4E51DA13758008115FD /* Smart Musee */;
+			targetProxy = 91DBD4FC1DA13758008115FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91DBD4EF1DA13758008115FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91DBD4F01DA13758008115FD /* Base */,
+				3CE5E7BF1E9B5884005809B1 /* gu-IN */,
+				3CE5E7C11E9B5894005809B1 /* fr */,
+				3CE5E7C31E9B58B1005809B1 /* hi-IN */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91DBD4F41DA13758008115FD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91DBD4F51DA13758008115FD /* Base */,
+				3CE5E7C01E9B5885005809B1 /* gu-IN */,
+				3CE5E7C21E9B5894005809B1 /* fr */,
+				3CE5E7C41E9B58B1005809B1 /* hi-IN */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91DBD5031DA13758008115FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 83AG82WS23;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91DBD5041DA13758008115FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 83AG82WS23;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91DBD5061DA13758008115FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 83AG82WS23;
+				INFOPLIST_FILE = "League Aegis/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Smart-Musee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "League Aegis/Smart Musee-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		91DBD5071DA13758008115FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 83AG82WS23;
+				INFOPLIST_FILE = "League Aegis/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Smart-Musee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "League Aegis/Smart Musee-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		91DBD5091DA13758008115FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "League AegisTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deep.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Musee.app/Smart Musee";
+			};
+			name = Debug;
+		};
+		91DBD50A1DA13758008115FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "League AegisTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deep.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Musee.app/Smart Musee";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91DBD4E11DA13758008115FD /* Build configuration list for PBXProject "Smart Musee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91DBD5031DA13758008115FD /* Debug */,
+				91DBD5041DA13758008115FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91DBD5051DA13758008115FD /* Build configuration list for PBXNativeTarget "Smart Musee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91DBD5061DA13758008115FD /* Debug */,
+				91DBD5071DA13758008115FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91DBD5081DA13758008115FD /* Build configuration list for PBXNativeTarget "Smart MuseeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91DBD5091DA13758008115FD /* Debug */,
+				91DBD50A1DA13758008115FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91DBD4DE1DA13758008115FD /* Project object */;
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "League Aegis/registerViewController.swift"
+            timestampString = "497123039.952254"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "registerViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "League_Aegis.registerViewController.userLNameTextField.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UITextField&gt;"
+                  moduleName = "League Aegis"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jaypatel/Desktop/deep/hehe/League%20Aegis/League%20Aegis/registerViewController.swift"
+                  timestampString = "497203848.653219"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "25">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "League_Aegis.registerViewController.userLNameTextField.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;ObjectiveC.UITextField&gt;"
+                  moduleName = "League Aegis"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jaypatel/Desktop/deep/hehe/League%20Aegis/League%20Aegis/registerViewController.swift"
+                  timestampString = "497203848.653368"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "30">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "League_Aegis.registerViewController.init (League_Aegis.registerViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; League_Aegis.registerViewController"
+                  moduleName = "League Aegis"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jaypatel/Desktop/deep/hehe/League%20Aegis/League%20Aegis/registerViewController.swift"
+                  timestampString = "497203848.653519"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "178">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "League_Aegis.registerViewController.init (League_Aegis.registerViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; League_Aegis.registerViewController"
+                  moduleName = "League Aegis"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jaypatel/Desktop/deep/hehe/League%20Aegis/League%20Aegis/registerViewController.swift"
+                  timestampString = "497203848.653675"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "95">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

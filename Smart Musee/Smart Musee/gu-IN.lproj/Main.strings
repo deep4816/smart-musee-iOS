@@ -1,0 +1,132 @@
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "01E-c5-BX7"; */
+"01E-c5-BX7.text" = "Password";
+
+/* Class = "UILabel"; text = "If you haven't registered yet?"; ObjectID = "3BI-7q-PF1"; */
+"3BI-7q-PF1.text" = "If you haven't registered yet?";
+
+/* Class = "UITextField"; text = "lastName"; ObjectID = "5cD-GC-eqS"; */
+"5cD-GC-eqS.text" = "lastName";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "7Gr-rn-my5"; */
+"7Gr-rn-my5.placeholder" = "password";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "8pl-cr-j8H"; */
+"8pl-cr-j8H.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "CMJ-7W-xFD"; */
+"CMJ-7W-xFD.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "E4F-CL-yPU"; */
+"E4F-CL-yPU.placeholder" = "password";
+
+/* Class = "UITextField"; text = "userName"; ObjectID = "Eon-nb-7Eh"; */
+"Eon-nb-7Eh.text" = "userName";
+
+/* Class = "UILabel"; text = "For queries, please contact us"; ObjectID = "FOb-Zy-NNS"; */
+"FOb-Zy-NNS.text" = "For queries, please contact us";
+
+/* Class = "UILabel"; text = "Username"; ObjectID = "I8w-d3-pim"; */
+"I8w-d3-pim.text" = "Username";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Idw-qz-qpA"; */
+"Idw-qz-qpA.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "firstName"; ObjectID = "JmN-T4-29C"; */
+"JmN-T4-29C.placeholder" = "firstName";
+
+/* Class = "UINavigationItem"; title = "Language Setting"; ObjectID = "KhG-bQ-ORh"; */
+"KhG-bQ-ORh.title" = "Language Setting";
+
+/* Class = "UINavigationItem"; title = "HOME"; ObjectID = "OIN-kN-SMv"; */
+"OIN-kN-SMv.title" = "HOME";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "PZF-qA-36q"; */
+"PZF-qA-36q.normalTitle" = "Sign Up";
+
+/* Class = "UIButton"; normalTitle = "Change Language"; ObjectID = "Qrx-cb-aXc"; */
+"Qrx-cb-aXc.normalTitle" = "Change Language";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "Rb2-HL-onq"; */
+"Rb2-HL-onq.normalTitle" = "Save";
+
+/* Class = "UILabel"; text = "smartmusee@gmail.com"; ObjectID = "RiT-kG-zuY"; */
+"RiT-kG-zuY.text" = "smartmusee@gmail.com";
+
+/* Class = "UITextField"; placeholder = "retypePassword"; ObjectID = "Tov-X4-wR3"; */
+"Tov-X4-wR3.placeholder" = "retypePassword";
+
+/* Class = "UILabel"; text = "Phone: +919714889010"; ObjectID = "V9K-1N-EHT"; */
+"V9K-1N-EHT.text" = "Phone: +919714889010";
+
+/* Class = "UILabel"; text = "Choose Language"; ObjectID = "Vi6-hw-c4x"; */
+"Vi6-hw-c4x.text" = "Choose Language";
+
+/* Class = "UINavigationItem"; title = "About Us"; ObjectID = "WTD-Ug-sWz"; */
+"WTD-Ug-sWz.title" = "About Us";
+
+/* Class = "UILabel"; text = "Sign Up"; ObjectID = "bPM-1V-vrO"; */
+"bPM-1V-vrO.text" = "Sign Up";
+
+/* Class = "UINavigationItem"; title = "Profile"; ObjectID = "bXG-8z-5ET"; */
+"bXG-8z-5ET.title" = "Profile";
+
+/* Class = "UITextField"; text = "firstName"; ObjectID = "dTT-gy-Eyz"; */
+"dTT-gy-Eyz.text" = "firstName";
+
+/* Class = "UIButton"; normalTitle = "Guest"; ObjectID = "eb2-5r-UIa"; */
+"eb2-5r-UIa.normalTitle" = "Guest";
+
+/* Class = "UIBarButtonItem"; title = "Edit"; ObjectID = "ekH-eG-2p6"; */
+"ekH-eG-2p6.title" = "Edit";
+
+/* Class = "UIButton"; normalTitle = "Already have an account?click to sign in"; ObjectID = "gNo-ND-9xy"; */
+"gNo-ND-9xy.normalTitle" = "Already have an account?click to sign in";
+
+/* Class = "UITextField"; placeholder = "userName"; ObjectID = "ikK-gi-R7x"; */
+"ikK-gi-R7x.placeholder" = "userName";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "jI1-EU-Zyg"; */
+"jI1-EU-Zyg.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "retypePassword"; ObjectID = "jM6-XZ-xX4"; */
+"jM6-XZ-xX4.placeholder" = "retypePassword";
+
+/* Class = "UIButton"; normalTitle = "Log In"; ObjectID = "lAa-qk-Sca"; */
+"lAa-qk-Sca.normalTitle" = "Log In";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "m93-dT-ak4"; */
+"m93-dT-ak4.normalTitle" = "Save";
+
+/* Class = "UITextField"; placeholder = "lastName"; ObjectID = "mFm-OH-5DX"; */
+"mFm-OH-5DX.placeholder" = "lastName";
+
+/* Class = "UITextField"; placeholder = "contact"; ObjectID = "nnQ-hh-Z6T"; */
+"nnQ-hh-Z6T.placeholder" = "contact";
+
+/* Class = "UINavigationItem"; title = "Feedback"; ObjectID = "otZ-NJ-aQD"; */
+"otZ-NJ-aQD.title" = "Feedback";
+
+/* Class = "UITextField"; placeholder = "language"; ObjectID = "pf0-km-e5f"; */
+"pf0-km-e5f.placeholder" = "language";
+
+/* Class = "UITextField"; placeholder = "emailId"; ObjectID = "qqC-d2-SeT"; */
+"qqC-d2-SeT.placeholder" = "emailId";
+
+/* Class = "UITextField"; placeholder = "contact"; ObjectID = "uDd-GX-7dA"; */
+"uDd-GX-7dA.placeholder" = "contact";
+
+/* Class = "UILabel"; text = "SMART MUSEE"; ObjectID = "vLC-RO-r4N"; */
+"vLC-RO-r4N.text" = "SMART MUSEE";
+
+/* Class = "UIButton"; normalTitle = "Register Here"; ObjectID = "vOt-JX-zK5"; */
+"vOt-JX-zK5.normalTitle" = "Register Here";
+
+/* Class = "UITextField"; placeholder = "emailId"; ObjectID = "w04-Lx-uYq"; */
+"w04-Lx-uYq.placeholder" = "emailId";
+
+/* Class = "UINavigationItem"; title = "HOME"; ObjectID = "wPJ-wO-vsA"; */
+"wPJ-wO-vsA.title" = "HOME";
+
+/* Class = "UIButton"; normalTitle = "Send"; ObjectID = "xiM-N6-I9Q"; */
+"xiM-N6-I9Q.normalTitle" = "Send";
